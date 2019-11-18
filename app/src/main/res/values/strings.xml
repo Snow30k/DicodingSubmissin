@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DicodingSubmission</string>
+    <string name="myName">Arya Mahendra</string>
+    <string name="myEmail">arya.mahendra30k@gmail.com</string>
+    <string name="sysSpec">Recommended System Requirements:</string>
+    <string name="os">Os</string>
+    <string name="osSpec">os</string>
+    <string name="processor">Processor</string>
+    <string name="processorSpec">processor</string>
+    <string name="graphics">Graphics</string>
+    <string name="graphicsSpec">graphics</string>
+    <string name="memory">Memory</string>
+    <string name="memorySpec">memory</string>
+    <string name="storage">Storage</string>
+    <string name="storageSpec">Storage</string>
+    <string name="review">Death Stranding requires a Radeon RX Vega 56 8GB graphics card with a Core i7-6700K 4-Core 4.0GHz or Ryzen R5 1600 processor to reach the recommended specs, achieving high graphics setting on 1080p. Minimum RAM requirements are 8 GB system memory. Your graphics card will need to be capable of running DirectX 11. In short you need a 3 year old PC for best Death Stranding performance.</string>
+    <string name="game_img">Game Img</string>
+    <string name="review_singkat">Review Singkat</string>
+</resources>

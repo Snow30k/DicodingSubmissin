@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.singers.DetailGameActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/d_game_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/borderlands3"
+            android:contentDescription="@string/game_img" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_dGame_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="GAME NAME"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/tv_dGame_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="genre"
+                android:textSize="12sp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/colorSubTitle"/>
+
+            <TextView
+                android:id="@+id/tv_dGame_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="By Author"
+                android:layout_marginBottom="16dp"
+                android:textColor="#f1f1f1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sysSpec"
+                android:textSize="12sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TableRow
+                    style="@style/tRow">
+
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="@string/os" />
+
+                    <TextView
+                        android:id="@+id/tv_os"
+                        style="@style/TextSpec.Value"
+                        android:text="@string/osSpec" />
+                </TableRow>
+
+                <TableRow
+                    style="@style/tRow">
+
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="@string/processor" />
+
+                    <TextView
+                        android:id="@+id/tv_processor"
+                        style="@style/TextSpec.Value"
+                        android:text="@string/processorSpec" />
+                </TableRow>
+
+                <TableRow
+                    style="@style/tRow">
+
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="@string/graphics" />
+
+                    <TextView
+                        android:id="@+id/tv_graphics"
+                        style="@style/TextSpec.Value"
+                        android:text="@string/graphicsSpec" />
+                </TableRow>
+
+                <TableRow
+                    style="@style/tRow">
+
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="@string/memory" />
+
+                    <TextView
+                        android:id="@+id/tv_memory"
+                        style="@style/TextSpec.Value"
+                        android:text="@string/memorySpec" />
+                </TableRow>
+
+                <TableRow
+                    style="@style/tRow">
+
+                    <TextView
+                        style="@style/TextSpec.Field"
+                        android:text="@string/storage" />
+
+                    <TextView
+                        android:id="@+id/tv_storage"
+                        style="@style/TextSpec.Value"
+                        android:text="@string/storageSpec" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/review_singkat"
+                android:textSize="12sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/review"
+                android:layout_marginBottom="16dp"
+                android:lineSpacingMultiplier="1"
+                android:textColor="#f1f1f1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
